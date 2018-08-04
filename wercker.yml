@@ -1,7 +1,7 @@
 box: debian
 build:
   steps:
-    - yunxi/blog:
-        version: "0.14"
+    - arjen/hugo-build:
+        version: "0.17"
         theme: herring-cove
         flags: --buildDrafts=true
