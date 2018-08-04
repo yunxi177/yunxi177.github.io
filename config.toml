@@ -1,15 +1,15 @@
 # Site settings
-baseurl = "http://artacode.com/"
+baseurl = "your_site_url_address"
 languageCode = "en"
-title = "一二三四吾"
+title = "site title"
 theme = "hugo-theme-cactus-plus"
 googleAnalytics = "your_google_analytics_id"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
 [params]
-	author = "云溪"
-	description = "一二三四吾"
+	author = "site_author"
+	description = "Site Description"
 	bio = "author biography"
 
 	twitter = "your_twitter_id"
