@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.artacode.com/posts/wxshare/</loc>
+    <lastmod>2018-08-05T11:35:45+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.artacode.com/posts/swoftunit/</loc>
     <lastmod>2018-08-05T11:08:39+08:00</lastmod>
   </url>
@@ -29,13 +34,13 @@
   </url>
   
   <url>
-    <loc>http://www.artacode.com/categories/swoft/</loc>
+    <loc>http://www.artacode.com/tags/swoft/</loc>
     <lastmod>2018-08-05T11:08:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.artacode.com/tags/swoft/</loc>
+    <loc>http://www.artacode.com/categories/swoft/</loc>
     <lastmod>2018-08-05T11:08:39+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -53,13 +58,25 @@
   </url>
   
   <url>
-    <loc>http://www.artacode.com/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <loc>http://www.artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-08-05T11:35:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.artacode.com/categories/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-08-05T11:35:45+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.artacode.com/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.artacode.com/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

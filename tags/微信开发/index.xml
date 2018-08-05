@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>一二三四吾</title>
-    <link>http://www.artacode.com/</link>
-    <description>Recent content on 一二三四吾</description>
+    <title>微信开发 on 一二三四吾</title>
+    <link>http://www.artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</link>
+    <description>Recent content in 微信开发 on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 11:35:45 +0800</lastBuildDate>
     
-	<atom:link href="http://www.artacode.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>第一篇博客</title>
-      <link>http://www.artacode.com/posts/firstpost/</link>
-      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.artacode.com/posts/firstpost/</guid>
-      <description>it‘s my life 最喜欢的句子  世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活
- 最喜欢的乐队 最信奉的信条 大道至简 &amp;#160; &amp;#160; &amp;#160; &amp;#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。
-&amp;#160; &amp;#160; &amp;#160; &amp;#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</description>
-    </item>
     
     <item>
       <title>微信分享</title>
@@ -32,18 +21,6 @@
 设置ip白名单 在 基本配置-&amp;gt;ip白名单将服务器Ip配置好即可
 生成分享配置 将下面代码加入项目
 &amp;lt;?php class WxShare { private $appId; private $appSecret; public function __construct($appId = &#39;自己的appid&#39;, $appSecret = &#39;自己的appSecret&#39;) { $this-&amp;gt;appId = $appId; $this-&amp;gt;appSecret = $appSecret; } public function getSignPackage() { //接收到前端的转义url转义回来 $url = $_POST; $durl = $url[&#39;url&#39;]; $durl = urldecode($durl); $jsapiTicket = $this-&amp;gt;getJsApiTicket(); var_dump($jsapiTicket); $timestamp = time(); $nonceStr = $this-&amp;gt;createNonceStr(); // 这里参数的顺序要按照 key 值 ASCII 码升序排序 $string = &amp;quot;jsapi_ticket=$jsapiTicket&amp;amp;noncestr=$nonceStr&amp;amp;timestamp=$timestamp&amp;amp;url=$durl&amp;quot;; $signature = sha1($string); $signPackage = [ &amp;quot;appId&amp;quot; =&amp;gt; $this-&amp;gt;appId, &amp;quot;nonceStr&amp;quot; =&amp;gt; $nonceStr, &amp;quot;timestamp&amp;quot; =&amp;gt; $timestamp, &amp;quot;url&amp;quot; =&amp;gt; $url, &amp;quot;signature&amp;quot; =&amp;gt; $signature, &amp;quot;rawString&amp;quot; =&amp;gt; $string ]; // var_dump($signPackage);die; return $signPackage; } public function curlGet($url) { $curl = curl_init(); // 启动一个CURL会话 curl_setopt($curl, CURLOPT_URL, $url); curl_setopt($curl, CURLOPT_HEADER, 0); curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false); // 跳过证书检查 curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, true); // 从证书中检查SSL加密算法是否存在 $tmpInfo = curl_exec($curl); //返回api的json对象 //关闭URL请求 curl_close($curl); return $tmpInfo; //返回json对象 } public function curlPost($url, $data) { $curl = curl_init(); // 启动一个CURL会话 curl_setopt($curl, CURLOPT_URL, $url); // 要访问的地址 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0); // 对认证证书来源的检查 curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 1); // 从证书中检查SSL加密算法是否存在 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER[&#39;HTTP_USER_AGENT&#39;]); // 模拟用户使用的浏览器 curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1); // 使用自动跳转 curl_setopt($curl, CURLOPT_AUTOREFERER, 1); // 自动设置Referer curl_setopt($curl, CURLOPT_POST, 1); // 发送一个常规的Post请求 curl_setopt($curl, CURLOPT_POSTFIELDS, $data); // Post提交的数据包 curl_setopt($curl, CURLOPT_TIMEOUT, 30); // 设置超时限制防止死循环 curl_setopt($curl, CURLOPT_HEADER, 0); // 显示返回的Header区域内容 curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1); // 获取的信息以文件流的形式返回 $tmpInfo = curl_exec($curl); // 执行操作 if (curl_errno($curl)) { echo &#39;Errno&#39;.</description>
-    </item>
-    
-    <item>
-      <title>swoft单元测试</title>
-      <link>http://www.artacode.com/posts/swoftunit/</link>
-      <pubDate>Sun, 05 Aug 2018 11:08:39 +0800</pubDate>
-      
-      <guid>http://www.artacode.com/posts/swoftunit/</guid>
-      <description>&lt;h2 id=&#34;1-1-为什么要使用单元测试&#34;&gt;1.1 为什么要使用单元测试&lt;/h2&gt;
-
-&lt;p&gt;在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。
-   &lt;/p&gt;</description>
     </item>
     
   </channel>
