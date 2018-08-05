@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 一二三四吾</title>
-    <link>http://www.artacode.com/posts/</link>
-    <description>Recent content in Posts on 一二三四吾</description>
+    <title>Swoft on 一二三四吾</title>
+    <link>http://www.artacode.com/categories/swoft/</link>
+    <description>Recent content in Swoft on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Aug 2018 11:08:39 +0800</lastBuildDate>
     
-	<atom:link href="http://www.artacode.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.artacode.com/categories/swoft/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>第一篇博客</title>
-      <link>http://www.artacode.com/posts/firstpost/</link>
-      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.artacode.com/posts/firstpost/</guid>
-      <description>it‘s my life 最喜欢的句子  世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活
- 最喜欢的乐队 最信奉的信条 大道至简 &amp;#160; &amp;#160; &amp;#160; &amp;#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。
-&amp;#160; &amp;#160; &amp;#160; &amp;#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</description>
-    </item>
     
     <item>
       <title>SwoftUnit</title>
