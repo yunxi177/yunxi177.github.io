@@ -3,97 +3,97 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yunxi177.github.io/posts/creating-a-new-theme/</loc>
+    <loc>http://www.artacode.com/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/posts/migrate-from-jekyll/</loc>
+    <loc>http://www.artacode.com/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/about/</loc>
+    <loc>http://www.artacode.com/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/posts/goisforlovers/</loc>
+    <loc>http://www.artacode.com/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/posts/hugoisforlovers/</loc>
+    <loc>http://www.artacode.com/posts/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/categories/</loc>
+    <loc>http://www.artacode.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yunxi177.github.io/categories/development/</loc>
+    <loc>http://www.artacode.com/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/go/</loc>
+    <loc>http://www.artacode.com/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/golang/</loc>
+    <loc>http://www.artacode.com/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/categories/golang/</loc>
+    <loc>http://www.artacode.com/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/hugo/</loc>
+    <loc>http://www.artacode.com/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/posts/</loc>
+    <loc>http://www.artacode.com/tags/hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.artacode.com/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/</loc>
+    <loc>http://www.artacode.com/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/templates/</loc>
+    <loc>http://www.artacode.com/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/themes/</loc>
+    <loc>http://www.artacode.com/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/</loc>
+    <loc>http://www.artacode.com/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
