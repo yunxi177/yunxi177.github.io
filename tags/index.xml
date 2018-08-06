@@ -2,39 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 一二三四吾</title>
-    <link>http://www.artacode.com/tags/</link>
+    <link>http://artacode.com/tags/</link>
     <description>Recent content in Tags on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Aug 2018 11:08:39 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 19:27:54 +0800</lastBuildDate>
     
-	<atom:link href="http://www.artacode.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://artacode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Golang</title>
+      <link>http://artacode.com/tags/golang/</link>
+      <pubDate>Mon, 06 Aug 2018 19:27:54 +0800</pubDate>
+      
+      <guid>http://artacode.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Swoft</title>
-      <link>http://www.artacode.com/tags/swoft/</link>
+      <link>http://artacode.com/tags/swoft/</link>
       <pubDate>Sun, 05 Aug 2018 11:08:39 +0800</pubDate>
       
-      <guid>http://www.artacode.com/tags/swoft/</guid>
+      <guid>http://artacode.com/tags/swoft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>微信开发</title>
-      <link>http://www.artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</link>
+      <link>http://artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</guid>
+      <guid>http://artacode.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     
     <item>
       <title>生活</title>
-      <link>http://www.artacode.com/tags/%E7%94%9F%E6%B4%BB/</link>
+      <link>http://artacode.com/tags/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.artacode.com/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>http://artacode.com/tags/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     

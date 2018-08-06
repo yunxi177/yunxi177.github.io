@@ -2,32 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>一二三四吾</title>
-    <link>http://www.artacode.com/</link>
+    <link>http://artacode.com/</link>
     <description>Recent content on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.artacode.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://artacode.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第一篇博客</title>
-      <link>http://www.artacode.com/posts/firstpost/</link>
+      <link>http://artacode.com/posts/firstpost/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.artacode.com/posts/firstpost/</guid>
+      <guid>http://artacode.com/posts/firstpost/</guid>
       <description>it‘s my life 最喜欢的句子  世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活
  最喜欢的乐队 最信奉的信条 大道至简 &amp;#160; &amp;#160; &amp;#160; &amp;#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。
 &amp;#160; &amp;#160; &amp;#160; &amp;#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</description>
     </item>
     
     <item>
+      <title>hugo安装及部署</title>
+      <link>http://artacode.com/posts/hugoinstall/</link>
+      <pubDate>Mon, 06 Aug 2018 19:27:54 +0800</pubDate>
+      
+      <guid>http://artacode.com/posts/hugoinstall/</guid>
+      <description>前言 Hugo是一个用Go编写的快速而现代的静态站点生成器，旨在使网站创建再次变得有趣。
+Hugo的优势就在于其生成的站点是静态的，因此网站的访问速度是非常快的，其次使用Hugo，可以让你专注于写文章，至于主题和seo Hugo已经很好的解决了这些问题。下面就来讲一下如何用Hugo生成一个站点并用github page部署
+安装Hugo Hugo的安装方式
+- 源码安装 - 二进制安装
+本篇文章旨在让小白也能用Hugo搭建出来一个站点，所以选择最简单的方式（二进制）安装，下载地址： Hugo 二进制下载 选择你对应系统的文件下载即可。
+将下载文件放在系统的PATH目录中，这样你可以在系统的任意位置实用Hugo命令。
+在 OS X，如果你有 Homebrew ，安装过程就更简单了：只需要运行 brew install hugo 。
+如果没有问题的话在命令行输入hugo version就可以显示出hugo的版本信息。
+生成站点 使用Hugo快速生成站点，比如希望生成到 /path/to/site 路径： hugo new site /path/to/site 这样就在 /path/to/site 目录里生成了初始站点，进去目录：cd /path/to/site
+ ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ resources/ ▸ static/ ▸ themes/ config.toml  创建文章 创建一个 about 页面：$ hugo new about.md about.md 自动生成到了 content/about.md ，打开 about.md 看下：
++++ date = &amp;quot;2015-10-25T08:36:54-07:00&amp;quot; draft = true title = &amp;quot;about&amp;quot; +++ 正文内容  内容是 Markdown 格式的，+++ 之间的内容是 TOML 格式的，根据你的喜好，你可以换成 YAML 格式（使用 &amp;mdash; 标记）或者 JSON 格式。</description>
+    </item>
+    
+    <item>
       <title>swoft单元测试</title>
-      <link>http://www.artacode.com/posts/swoftunit/</link>
+      <link>http://artacode.com/posts/swoftunit/</link>
       <pubDate>Sun, 05 Aug 2018 11:08:39 +0800</pubDate>
       
-      <guid>http://www.artacode.com/posts/swoftunit/</guid>
+      <guid>http://artacode.com/posts/swoftunit/</guid>
       <description>&lt;h2 id=&#34;1-1-为什么要使用单元测试&#34;&gt;1.1 为什么要使用单元测试&lt;/h2&gt;
 
 &lt;p&gt;在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。
@@ -36,10 +55,10 @@
     
     <item>
       <title>微信分享</title>
-      <link>http://www.artacode.com/posts/wxshare/</link>
+      <link>http://artacode.com/posts/wxshare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.artacode.com/posts/wxshare/</guid>
+      <guid>http://artacode.com/posts/wxshare/</guid>
       <description>&lt;h3 id=&#34;微信分享步骤&#34;&gt;微信分享步骤&lt;/h3&gt;
 
 &lt;ul&gt;

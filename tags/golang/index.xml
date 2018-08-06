@@ -2,40 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on 一二三四吾</title>
-    <link>http://www.artacode.com/tags/golang/</link>
+    <link>http://artacode.com/tags/golang/</link>
     <description>Recent content in Golang on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Aug 2018 19:27:54 +0800</lastBuildDate>
     
-	<atom:link href="http://www.artacode.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://artacode.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://www.artacode.com/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.artacode.com/posts/goisforlovers/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://www.artacode.com/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>hugo安装及部署</title>
+      <link>http://artacode.com/posts/hugoinstall/</link>
+      <pubDate>Mon, 06 Aug 2018 19:27:54 +0800</pubDate>
       
-      <guid>http://www.artacode.com/posts/hugoisforlovers/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
-
-&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
-appropriate version for your os and architecture.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>http://artacode.com/posts/hugoinstall/</guid>
+      <description>前言 Hugo是一个用Go编写的快速而现代的静态站点生成器，旨在使网站创建再次变得有趣。
+Hugo的优势就在于其生成的站点是静态的，因此网站的访问速度是非常快的，其次使用Hugo，可以让你专注于写文章，至于主题和seo Hugo已经很好的解决了这些问题。下面就来讲一下如何用Hugo生成一个站点并用github page部署
+安装Hugo Hugo的安装方式
+- 源码安装 - 二进制安装
+本篇文章旨在让小白也能用Hugo搭建出来一个站点，所以选择最简单的方式（二进制）安装，下载地址： Hugo 二进制下载 选择你对应系统的文件下载即可。
+将下载文件放在系统的PATH目录中，这样你可以在系统的任意位置实用Hugo命令。
+在 OS X，如果你有 Homebrew ，安装过程就更简单了：只需要运行 brew install hugo 。
+如果没有问题的话在命令行输入hugo version就可以显示出hugo的版本信息。
+生成站点 使用Hugo快速生成站点，比如希望生成到 /path/to/site 路径： hugo new site /path/to/site 这样就在 /path/to/site 目录里生成了初始站点，进去目录：cd /path/to/site
+ ▸ archetypes/ ▸ content/ ▸ layouts/ ▸ resources/ ▸ static/ ▸ themes/ config.toml  创建文章 创建一个 about 页面：$ hugo new about.md about.md 自动生成到了 content/about.md ，打开 about.md 看下：
++++ date = &amp;quot;2015-10-25T08:36:54-07:00&amp;quot; draft = true title = &amp;quot;about&amp;quot; +++ 正文内容  内容是 Markdown 格式的，+++ 之间的内容是 TOML 格式的，根据你的喜好，你可以换成 YAML 格式（使用 &amp;mdash; 标记）或者 JSON 格式。</description>
     </item>
     
   </channel>
