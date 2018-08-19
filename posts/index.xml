@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 一二三四吾</title>
-    <link>http://artacode.com/posts/</link>
+    <link>https://yunxi177.github.io/posts/</link>
     <description>Recent content in Posts on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://artacode.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yunxi177.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第一篇博客</title>
-      <link>http://artacode.com/posts/firstpost/</link>
+      <link>https://yunxi177.github.io/posts/firstpost/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://artacode.com/posts/firstpost/</guid>
+      <guid>https://yunxi177.github.io/posts/firstpost/</guid>
       <description>it‘s my life 最喜欢的句子  世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活
  最喜欢的乐队 最信奉的信条 大道至简 &amp;#160; &amp;#160; &amp;#160; &amp;#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。
 &amp;#160; &amp;#160; &amp;#160; &amp;#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>freeRADIUS搭建</title>
-      <link>http://artacode.com/posts/freeradius/</link>
+      <link>https://yunxi177.github.io/posts/freeradius/</link>
       <pubDate>Sun, 19 Aug 2018 11:05:29 +0800</pubDate>
       
-      <guid>http://artacode.com/posts/freeradius/</guid>
+      <guid>https://yunxi177.github.io/posts/freeradius/</guid>
       <description>系统要求 操作系统 CentOS 7.0 x86_64 网址：http://www.centos.org/
 所需软件  FreeRADIUS 3.0 网址：http://freeradius.org/ 目前最新版本为3.0.6 MariaDB 网址：https://mariadb.com/ 目前最新版本为10.3.9 注：MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可。开发这个分支的原因之一是：甲骨文公司收购了MySQL后，有将MySQL闭源的潜在风险，因此社区采用分支的方式来避开这个风险。 MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。MariaDB虽然被视为MySQL数据库的替代品，但它在扩展功能、存储引擎以及一些新的功能改进方面都强过MySQL。  注意事项 本文提到的所有操作，需要以root身份执行。
 FreeRADIUS 3.0的安装 根据官网上的说明，建议采用二进制安装包的形式安装，而不推荐从源代码编译的方式。因此，本次采用二进制安装包的形式安装。.
@@ -39,10 +39,10 @@ iptables -A INPUT -p udp --dport 1812 -j ACCEPT iptables -A INPUT -p udp --dport
     
     <item>
       <title>hugo安装及部署</title>
-      <link>http://artacode.com/posts/hugoinstall/</link>
+      <link>https://yunxi177.github.io/posts/hugoinstall/</link>
       <pubDate>Mon, 06 Aug 2018 19:27:54 +0800</pubDate>
       
-      <guid>http://artacode.com/posts/hugoinstall/</guid>
+      <guid>https://yunxi177.github.io/posts/hugoinstall/</guid>
       <description>&lt;h1 id=&#34;前言&#34;&gt;前言&lt;/h1&gt;
 
 &lt;p&gt;Hugo是一个用Go编写的快速而现代的静态站点生成器，旨在使网站创建再次变得有趣。&lt;br /&gt;
@@ -52,10 +52,10 @@ Hugo的优势就在于其生成的站点是静态的，因此网站的访问速�
     
     <item>
       <title>swoft单元测试</title>
-      <link>http://artacode.com/posts/swoftunit/</link>
+      <link>https://yunxi177.github.io/posts/swoftunit/</link>
       <pubDate>Sun, 05 Aug 2018 11:08:39 +0800</pubDate>
       
-      <guid>http://artacode.com/posts/swoftunit/</guid>
+      <guid>https://yunxi177.github.io/posts/swoftunit/</guid>
       <description>&lt;h2 id=&#34;1-1-为什么要使用单元测试&#34;&gt;1.1 为什么要使用单元测试&lt;/h2&gt;
 
 &lt;p&gt;在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。
@@ -64,10 +64,10 @@ Hugo的优势就在于其生成的站点是静态的，因此网站的访问速�
     
     <item>
       <title>微信分享</title>
-      <link>http://artacode.com/posts/wxshare/</link>
+      <link>https://yunxi177.github.io/posts/wxshare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://artacode.com/posts/wxshare/</guid>
+      <guid>https://yunxi177.github.io/posts/wxshare/</guid>
       <description>&lt;h3 id=&#34;微信分享步骤&#34;&gt;微信分享步骤&lt;/h3&gt;
 
 &lt;ul&gt;
