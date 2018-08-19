@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计算机网络 on 一二三四吾</title>
+    <link>http://artacode.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+    <description>Recent content in 计算机网络 on 一二三四吾</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Aug 2018 11:05:29 +0800</lastBuildDate>
+    
+	<atom:link href="http://artacode.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>freeRADIUS搭建</title>
+      <link>http://artacode.com/posts/freeradius/</link>
+      <pubDate>Sun, 19 Aug 2018 11:05:29 +0800</pubDate>
+      
+      <guid>http://artacode.com/posts/freeradius/</guid>
+      <description>系统要求 操作系统 CentOS 7.0 x86_64 网址：http://www.centos.org/
+所需软件  FreeRADIUS 3.0 网址：http://freeradius.org/ 目前最新版本为3.0.6 MariaDB 网址：https://mariadb.com/ 目前最新版本为10.3.9 注：MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可。开发这个分支的原因之一是：甲骨文公司收购了MySQL后，有将MySQL闭源的潜在风险，因此社区采用分支的方式来避开这个风险。 MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。MariaDB虽然被视为MySQL数据库的替代品，但它在扩展功能、存储引擎以及一些新的功能改进方面都强过MySQL。  注意事项 本文提到的所有操作，需要以root身份执行。
+FreeRADIUS 3.0的安装 根据官网上的说明，建议采用二进制安装包的形式安装，而不推荐从源代码编译的方式。因此，本次采用二进制安装包的形式安装。.
+安装FreeRADIUS 3.0 服务器程序  以root身份登录到终端，执行以下命令：yum install freeradius 输入“y”，继续安装。 安装完毕。  安装FreeRADIUS工具包（freeradius-utils） 这个工具包是用于测试freeradius的，后面会用到。安装方法同前，执行一下命令： yum install freeradius-utils
+FreeRADIUS 3.0的测试 修改用户管理配置文件 该文件是/etc/raddb/users，使用vi工具打开，命令如下: sudo vim /etc/raddb/users 打开文件后，查找 steve Cleartext-Password :=&amp;quot;testing&amp;quot; （76-84行）, 取消该段内容的注释。
+修改防火墙配置 修改防火墙配置，允许freeradius所使用的端口1812，1813通过。命令如下：
+iptables -A INPUT -p udp --dport 1812 -j ACCEPT iptables -A INPUT -p udp --dport 1813 -j ACCEPT  以调试方式启动freeradius 执行以下命令：radiusd –X</description>
+    </item>
+    
+  </channel>
+</rss>

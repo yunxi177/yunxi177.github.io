@@ -17,7 +17,7 @@
   <meta name="twitter:title" content="一二三四吾"/>
   <meta name="twitter:description" content="想成为一名艺术家的码农"/>
   
-    <meta name="twitter:image" content="http://artacode.com/images/avatar.png" />
+    <meta name="twitter:image" content="http://artacode.comimages/avatar.png" />
   
 
 
@@ -26,12 +26,12 @@
 		<meta name="description" content="想成为一名艺术家的码农">
 		<meta name="generator" content="Hugo 0.47-DEV" />
 		<title>一二三四吾</title>
-		<link rel="shortcut icon" href="http://artacode.com/images/favicon.ico">
-		<link rel="stylesheet" href="http://artacode.com/css/style.css">
-		<link rel="stylesheet" href="http://artacode.com/css/highlight.css">
+		<link rel="shortcut icon" href="http://artacode.comimages/favicon.ico">
+		<link rel="stylesheet" href="http://artacode.comcss/style.css">
+		<link rel="stylesheet" href="http://artacode.comcss/highlight.css">
 
 		
-		<link rel="stylesheet" href="http://artacode.com/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://artacode.comcss/font-awesome.min.css">
 		
 
 		
@@ -45,9 +45,9 @@
     <nav class="main-nav">
 	
 	
-	<a href='http://artacode.com/posts'>Archive</a>
-	<a href='http://artacode.com/tags'>Tags</a>
-	<a href='http://artacode.com/about'>About</a>
+	<a href='http://artacode.composts'>Archive</a>
+	<a href='http://artacode.comtags'>Tags</a>
+	<a href='http://artacode.comabout'>About</a>
 
 	
 
@@ -60,8 +60,8 @@
     <div class="profile">
     <section id="wrapper">
         <header id="header">
-            <a href='http://artacode.com/about'>
-                <img id="avatar" class="2x" src="http://artacode.com/images/avatar.png"/>
+            <a href='http://artacode.comabout'>
+                <img id="avatar" class="2x" src="http://artacode.comimages/avatar.png"/>
             </a>
             <h1>一二三四吾</h1>
             <h2>author biography</h2>
@@ -84,6 +84,27 @@
                             <h2>it‘s my life 最喜欢的句子  世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活
  最喜欢的乐队 最信奉的信条 大道至简        世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。
        将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Aug 19</aside>
+                <a href='http://artacode.com/posts/freeradius/'>
+                    freeRADIUS搭建
+                    
+                        
+                            <h2>系统要求 操作系统 CentOS 7.0 x86_64 网址：http://www.centos.org/
+所需软件  FreeRADIUS 3.0 网址：http://freeradius.org/ 目前最新版本为3.0.6 MariaDB 网址：https://mariadb.com/ 目前最新版本为10.3.9 注：MariaDB数据库管理系统是MySQL的一个分支，主要由开源社区在维护，采用GPL授权许可。开发这个分支的原因之一是：甲骨文公司收购了MySQL后，有将MySQL闭源的潜在风险，因此社区采用分支的方式来避开这个风险。 MariaDB的目的是完全兼容MySQL，包括API和命令行，使之能轻松成为MySQL的代替品。MariaDB虽然被视为MySQL数据库的替代品，但它在扩展功能、存储引擎以及一些新的功能改进方面都强过MySQL。  注意事项 本文提到的所有操作，需要以root身份执行。
+FreeRADIUS 3.0的安装 根据官网上的说明，建议采用二进制安装包的形式安装，而不推荐从源代码编译的方式。因此，本次采用二进制安装包的形式安装。.
+安装FreeRADIUS 3.0 服务器程序  以root身份登录到终端，执行以下命令：yum install freeradius 输入“y”，继续安装。 安装完毕。  安装FreeRADIUS工具包（freeradius-utils） 这个工具包是用于测试freeradius的，后面会用到。安装方法同前，执行一下命令： yum install freeradius-utils
+FreeRADIUS 3.0的测试 修改用户管理配置文件 该文件是/etc/raddb/users，使用vi工具打开，命令如下: sudo vim /etc/raddb/users 打开文件后，查找 steve Cleartext-Password :=&#34;testing&#34; （76-84行）, 取消该段内容的注释。
+修改防火墙配置 修改防火墙配置，允许freeradius所使用的端口1812，1813通过。命令如下：
+iptables -A INPUT -p udp --dport 1812 -j ACCEPT iptables -A INPUT -p udp --dport 1813 -j ACCEPT  以调试方式启动freeradius 执行以下命令：radiusd –X</h2>
                         
                     
                 </a>
@@ -176,9 +197,9 @@ Hugo的优势就在于其生成的站点是静态的，因此网站的访问速�
 
     </section>
 
-    <script src="http://artacode.com/js/jquery-3.3.1.min.js"></script>
-<script src="http://artacode.com/js/main.js"></script>
-<script src="http://artacode.com/js/highlight.min.js"></script>
+    <script src="http://artacode.comjs/jquery-3.3.1.min.js"></script>
+<script src="http://artacode.comjs/main.js"></script>
+<script src="http://artacode.comjs/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
