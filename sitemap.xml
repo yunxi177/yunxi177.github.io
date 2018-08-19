@@ -33,13 +33,13 @@
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/golang/</loc>
+    <loc>https://yunxi177.github.io/categories/golang/</loc>
     <lastmod>2018-08-06T19:27:54+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/categories/golang/</loc>
+    <loc>https://yunxi177.github.io/tags/golang/</loc>
     <lastmod>2018-08-06T19:27:54+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -51,13 +51,13 @@
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/swoft/</loc>
+    <loc>https://yunxi177.github.io/categories/swoft/</loc>
     <lastmod>2018-08-05T11:08:39+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/categories/swoft/</loc>
+    <loc>https://yunxi177.github.io/tags/swoft/</loc>
     <lastmod>2018-08-05T11:08:39+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -79,18 +79,12 @@
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yunxi177.github.io/categories/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
+    <loc>https://yunxi177.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/</loc>
     <priority>0</priority>
   </url>
   
@@ -101,13 +95,19 @@
   </url>
   
   <url>
-    <loc>https://yunxi177.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2018-08-19T11:05:29+08:00</lastmod>
+    <loc>https://yunxi177.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2018-08-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yunxi177.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2018-08-19T11:05:29+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yunxi177.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2018-08-19T11:05:29+08:00</lastmod>
     <priority>0</priority>
   </url>
