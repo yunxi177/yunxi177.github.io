@@ -1,0 +1,65 @@
+	<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 
+			
+
+  <meta name="twitter:card" content="summary" />
+  
+    <meta name="twitter:site" content="@your_twitter_id"/>
+  
+  
+    <meta name="twitter:creator" content="@云溪"/>
+  
+  <meta name="twitter:title" content="一二三四吾"/>
+  <meta name="twitter:description" content="想成为一名艺术家的码农"/>
+  
+    <meta name="twitter:image" content="http://www.artacode.com/images/avatar.png" />
+  
+
+
+		
+		<meta name="author" content="云溪">
+		<meta name="description" content="想成为一名艺术家的码农">
+		<meta name="generator" content="Hugo 0.47-DEV" />
+		<title>一二三四吾</title>
+		<link rel="shortcut icon" href="http://www.artacode.com/images/favicon.ico">
+		<link rel="stylesheet" href="http://www.artacode.com/css/style.css">
+		<link rel="stylesheet" href="http://www.artacode.com/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="http://www.artacode.com/css/font-awesome.min.css">
+		
+
+		
+		<link href="http://www.artacode.com/index.xml" rel="alternate" type="application/rss+xml" title="一二三四吾" />
+		
+
+		
+	</head>
+
+	<body>
+<div class="test-area">
+    <input id="taokouling" value="{{code}}" type="text">
+    <button id="copyCode" class="btn" data-clipboard-target="#taokouling" data-clipboard-action="copy">
+        复制淘口令
+    </button>
+    <script type="text/javascript" src="http://www.fndroid.cn/clipboard.min.js"></script>
+    <script>
+        var clipboard = new Clipboard('.btn');
+        clipboard.on('success', function(e){
+            console.log(e);
+            document.getElementById('copyCode').innerHTML = '复制成功';
+        });
+        clipboard.on('error', function(e){
+            document.getElementById('copyCode').innerHTML = '复制失败，请长按复制';
+        });
+    </script>
+</div>
+
+    </body>
+    <script src="https://cdn.staticfile.org/clipboard.js/1.5.15/clipboard.min.js"></script>
+</html>
