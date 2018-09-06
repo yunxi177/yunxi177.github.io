@@ -13,8 +13,11 @@
     
   
   
-  <meta name="twitter:title" content="第一篇博客"/>
-  <meta name="twitter:description" content="这是我的第一篇hugo博客 "/>
+  <meta name="twitter:title" content="Supervisor 安装与只用"/>
+  <meta name="twitter:description" content="简介 supervisor管理进程，是通过fork/exec的方式将这些被管理的进程当作supervisor的子进程来启动，所以我们只需要将要管理进程的可执行文件的路径添加到supervisor的配置文件中就好了。此时被管理进程被视为supervisor的子进程，若该子进程异常中断，则父进程可以准确的获取子进程异常中断的信息，通过在配置文件中设置autostart=ture，可以实现对异常中断的子进程的自动重启。
+安装 sudo apt-get install supervisor
+配置  进入配置文件目录 : cd /etc/supervisor/conf.d 新建配置文件 sudo vim test.conf  配置内如如下：
+[program:cow] command=/home/argericy/workspace/test #要执行的命令 autostart=true #自动启动 autorestart=true #自动重启 user=root #执行命令用户 log_stderr=true logfile=/var/log/test.log #日志文件 stopsignal=INT [supervisord]  常见问题 supervisor Error: .ini file does not include supervisord section 在配置文件中增加 [supervisord] 配置项"/>
   
     <meta name="twitter:site" content="@your_twitter_id"/>
   
@@ -30,7 +33,7 @@
 		<meta name="author" content="Argericy">
 		<meta name="description" content="想成为一名艺术家的码农">
 		<meta name="generator" content="Hugo 0.47.1" />
-		<title>第一篇博客 &middot; 一二三四吾</title>
+		<title>Supervisor 安装与只用 &middot; 一二三四吾</title>
 		<link rel="shortcut icon" href="http://www.artacode.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://www.artacode.com/css/style.css">
 		<link rel="stylesheet" href="http://www.artacode.com/css/highlight.css">
@@ -68,17 +71,17 @@
             <article>
                 <header>
                     <h1>
-                        第一篇博客
+                        Supervisor 安装与只用
                     </h1>
                     <h2 class="headline">
-                    Aug 5, 2018 00:00
-                    · 16 words
+                    Jan 1, 0001 00:00
+                    · 44 words
                     · 1 minute read
                       <span class="tags">
                       
                       
                           
-                              <a href="http://www.artacode.com/tags/%E7%94%9F%E6%B4%BB">生活</a>
+                              <a href="http://www.artacode.com/tags/linux">linux</a>
                           
                       
                       
@@ -90,17 +93,12 @@
                     <div id="toc">
                       <nav id="TableOfContents">
 <ul>
-<li><a href="#it-s-my-life">it‘s my life</a>
+<li><a href="#简介">简介</a></li>
+<li><a href="#安装">安装</a></li>
+<li><a href="#配置">配置</a></li>
+<li><a href="#常见问题">常见问题</a>
 <ul>
-<li>
-<ul>
-<li><a href="#最喜欢的句子">最喜欢的句子</a></li>
-<li><a href="#最喜欢的乐队">最喜欢的乐队</a></li>
-<li><a href="#最信奉的信条">最信奉的信条</a>
-<ul>
-<li><a href="#大道至简">大道至简</a></li>
-</ul></li>
-</ul></li>
+<li><a href="#supervisor-error-ini-file-does-not-include-supervisord-section">supervisor Error: .ini file does not include supervisord section</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -110,30 +108,45 @@
                 <section id="post-body">
                     
 
-<h1 id="it-s-my-life">it‘s my life</h1>
+<h1 id="简介">简介</h1>
 
-<h3 id="最喜欢的句子">最喜欢的句子</h3>
+<p>supervisor管理进程，是通过fork/exec的方式将这些被管理的进程当作supervisor的子进程来启动，所以我们只需要将要管理进程的可执行文件的路径添加到supervisor的配置文件中就好了。此时被管理进程被视为supervisor的子进程，若该子进程异常中断，则父进程可以准确的获取子进程异常中断的信息，通过在配置文件中设置autostart=ture，可以实现对异常中断的子进程的自动重启。</p>
 
-<blockquote>
-<p>世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活</p>
-</blockquote>
+<h1 id="安装">安装</h1>
 
-<h3 id="最喜欢的乐队">最喜欢的乐队</h3>
+<p><code>sudo apt-get install supervisor</code></p>
 
-<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1533356950841&amp;di=8fa2970a323e3a4e2365a4824a5044b2&amp;imgtype=0&amp;src=http%3A%2F%2Fimage.jijidown.com%2Fv1%2Fimage%3Fav%3D12509347%26url%3Dhttps%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2Ffd12b68a28d2ccb7959702ea8ead0c9081ccf270.jpg%26sign%3DD8A38CA52320633A94421BBEC6F572C7" alt="Mou icon" /></p>
+<h1 id="配置">配置</h1>
 
-<h3 id="最信奉的信条">最信奉的信条</h3>
+<ul>
+<li>进入配置文件目录 : <code>cd /etc/supervisor/conf.d</code></li>
+<li>新建配置文件 <code>sudo vim test.conf</code></li>
+</ul>
 
-<h4 id="大道至简">大道至简</h4>
+<p>配置内如如下：</p>
 
-<p>&#160; &#160; &#160; &#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。<br />
- &#160; &#160; &#160; &#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</p>
+<pre><code>[program:cow] 
+command=/home/argericy/workspace/test #要执行的命令
+autostart=true #自动启动
+autorestart=true #自动重启
+user=root #执行命令用户
+log_stderr=true
+logfile=/var/log/test.log #日志文件
+stopsignal=INT
+[supervisord]
+</code></pre>
+
+<h1 id="常见问题">常见问题</h1>
+
+<h2 id="supervisor-error-ini-file-does-not-include-supervisord-section">supervisor Error: .ini file does not include supervisord section</h2>
+
+<p>在配置文件中增加  <code>[supervisord]</code> 配置项</p>
 
                 </section>
             </article>
 
             
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2ffirstpost%2f - %e7%ac%ac%e4%b8%80%e7%af%87%e5%8d%9a%e5%ae%a2 by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2fsupervisor%2f - Supervisor%20%e5%ae%89%e8%a3%85%e4%b8%8e%e5%8f%aa%e7%94%a8 by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
