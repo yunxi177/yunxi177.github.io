@@ -93,6 +93,24 @@
     
         
             <li>
+                <aside class="dates">Sep 4</aside>
+                <a href='http://www.artacode.com/posts/supervisor/'>
+                    Supervisor 安装与使用
+                    
+                        
+                            <h2>简介 supervisor管理进程，是通过fork/exec的方式将这些被管理的进程当作supervisor的子进程来启动，所以我们只需要将要管理进程的可执行文件的路径添加到supervisor的配置文件中就好了。此时被管理进程被视为supervisor的子进程，若该子进程异常中断，则父进程可以准确的获取子进程异常中断的信息，通过在配置文件中设置autostart=ture，可以实现对异常中断的子进程的自动重启。
+安装 sudo apt-get install supervisor
+配置  进入配置文件目录 : cd /etc/supervisor/conf.d 新建配置文件 sudo vim test.conf  配置内如如下：
+[program:cow] command=/home/argericy/workspace/test #要执行的命令 autostart=true #自动启动 autorestart=true #自动重启 user=root #执行命令用户 log_stderr=true logfile=/var/log/test.log #日志文件 stopsignal=INT [supervisord]  常见问题 supervisor Error: .ini file does not include supervisord section 在配置文件中增加 [supervisord] 配置项</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
                 <aside class="dates">Aug 19</aside>
                 <a href='http://www.artacode.com/posts/freeradius/'>
                     freeRADIUS搭建
@@ -136,24 +154,6 @@ Hugo的优势就在于其生成的站点是静态的，因此网站的访问速�
                     
                         
                             <h2>1.1 为什么要使用单元测试 在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。 </h2>
-                        
-                    
-                </a>
-            </li>
-        
-    
-    
-        
-            <li>
-                <aside class="dates">Jan 1</aside>
-                <a href='http://www.artacode.com/posts/supervisor/'>
-                    Supervisor 安装与使用
-                    
-                        
-                            <h2>简介 supervisor管理进程，是通过fork/exec的方式将这些被管理的进程当作supervisor的子进程来启动，所以我们只需要将要管理进程的可执行文件的路径添加到supervisor的配置文件中就好了。此时被管理进程被视为supervisor的子进程，若该子进程异常中断，则父进程可以准确的获取子进程异常中断的信息，通过在配置文件中设置autostart=ture，可以实现对异常中断的子进程的自动重启。
-安装 sudo apt-get install supervisor
-配置  进入配置文件目录 : cd /etc/supervisor/conf.d 新建配置文件 sudo vim test.conf  配置内如如下：
-[program:cow] command=/home/argericy/workspace/test #要执行的命令 autostart=true #自动启动 autorestart=true #自动重启 user=root #执行命令用户 log_stderr=true logfile=/var/log/test.log #日志文件 stopsignal=INT [supervisord]  常见问题 supervisor Error: .ini file does not include supervisord section 在配置文件中增加 [supervisord] 配置项</h2>
                         
                     
                 </a>
