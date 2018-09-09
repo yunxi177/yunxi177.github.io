@@ -13,11 +13,9 @@
     
   
   
-  <meta name="twitter:title" content="swoft单元测试"/>
-  <meta name="twitter:description" content="1.1 为什么要使用单元测试
-
-在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。
-   "/>
+  <meta name="twitter:title" content="docker常见问题"/>
+  <meta name="twitter:description" content="docker pull 失败 错误信息 Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io: no such host
+解决方法 将dns修改成8.8.8.8就可以解决此问题"/>
   
     <meta name="twitter:site" content="@your_twitter_id"/>
   
@@ -33,7 +31,7 @@
 		<meta name="author" content="Argericy">
 		<meta name="description" content="想成为一名艺术家的码农">
 		<meta name="generator" content="Hugo 0.48" />
-		<title>swoft单元测试 &middot; 一二三四吾</title>
+		<title>docker常见问题 &middot; 一二三四吾</title>
 		<link rel="shortcut icon" href="http://www.artacode.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://www.artacode.com/css/style.css">
 		<link rel="stylesheet" href="http://www.artacode.com/css/highlight.css">
@@ -71,17 +69,17 @@
             <article>
                 <header>
                     <h1>
-                        swoft单元测试
+                        docker常见问题
                     </h1>
                     <h2 class="headline">
-                    Aug 5, 2018 11:08
-                    · 56 words
+                    Sep 9, 2018 15:54
+                    · 15 words
                     · 1 minute read
                       <span class="tags">
                       
                       
                           
-                              <a href="http://www.artacode.com/tags/swoft">swoft</a>
+                              <a href="http://www.artacode.com/tags/docker">docker</a>
                           
                       
                       
@@ -93,15 +91,10 @@
                     <div id="toc">
                       <nav id="TableOfContents">
 <ul>
-<li>
+<li><a href="#docker-pull-失败">docker pull 失败</a>
 <ul>
-<li><a href="#1-1-为什么要使用单元测试">1.1 为什么要使用单元测试</a></li>
-<li><a href="#1-2-swoft中使用单元测试">1.2 swoft中使用单元测试</a>
-<ul>
-<li><a href="#1-2-1-安装环境">1.2.1 安装环境</a></li>
-<li><a href="#1-2-2-phpunit简单使用">1.2.2 phpunit简单使用</a></li>
-</ul></li>
-<li><a href="#1-3-结束">1.3 结束</a></li>
+<li><a href="#错误信息">错误信息</a></li>
+<li><a href="#解决方法">解决方法</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -109,64 +102,23 @@
                   
                 
                 <section id="post-body">
-                    <h2 id="1-1-为什么要使用单元测试">1.1 为什么要使用单元测试</h2>
+                    
 
-<p>在编写代码的过程中，一定会反复调试保证它能够编译通过。但代码通过编译，只是说明了它的语法正确。无法保证它的语义也一定正确，没有任何人可以轻易承诺这段代码的行为一定是正确的。幸运的是，单元测试会为我们的承诺做保证。编写单元测试就是用来验证这段代码的行为是否与我们期望的一致。有了单元测试，我们可以自信地交付自己的代码，减少后顾之忧。
-   </p>
+<h1 id="docker-pull-失败">docker pull 失败</h1>
 
-<p>进行单元测试，会带来以下好处:</p>
+<h2 id="错误信息">错误信息</h2>
 
-<ul>
-<li>软件质量最简单、最有效的保证；</li>
-<li>是目标代码最清晰、最有效的文档；</li>
-<li>可以优化目标代码的设计；</li>
-<li>是代码重构的保障；</li>
-<li>是回归测试和持续集成的基石。</li>
-</ul>
+<p><code>Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io: no such host</code></p>
 
-<h2 id="1-2-swoft中使用单元测试">1.2 swoft中使用单元测试</h2>
+<h2 id="解决方法">解决方法</h2>
 
-<p>在swoft项目中是有单元测试代码的，这里讲述一下如何在swoft中讲单元测试跑起来，以及我在使用单元测试时遇到的问题。</p>
+<p>将dns修改成<code>8.8.8.8</code>就可以解决此问题</p>
 
-<h3 id="1-2-1-安装环境">1.2.1 安装环境</h3>
-
-<p>执行以下代码</p>
-
-<pre><code>➜ wget http://phar.phpunit.cn/phpunit.phar
-
-➜ chmod +x phpunit.phar
-
-➜ sudo mv phpunit.phar /usr/local/bin/phpunit
-
-➜ phpunit --version
-PHPUnit 6.3.0 by Sebastian Bergmann and contributors.
-</code></pre>
-
-<blockquote>
-<p><code>注意：如果你swoft是跑在docker里的，那么你上述代码的安装命令应该在你docker环境中执行</code></p>
-</blockquote>
-
-<h3 id="1-2-2-phpunit简单使用">1.2.2 phpunit简单使用</h3>
-
-<p>安装完环境，我们就可以在swoft正常实用单元测试了，在swoft跟目录下直接输入命令
-<code>phpunit test/Cases/DemoControlle</code>
-就可以执行对<code>DemoController</code>的单元测试了，当然你也可以对整个<code>/test/Cases</code>目录进行测试命令为
-<code>phpunit test/Cases/</code>
-对于phpunit一些配置行在<code>/swoft/phpunit.xml</code>中，如果需要增加配置可以直接修改<code>/swoft/phpunit.xml</code>
-如果在非根目录下执行<code>phpunit</code>需要用<code>-c</code>加载配置文件才可以正常使用如：<code>phpunit -c phpunit.xml test/Cases/DemoControlle</code></p>
-
-<blockquote>
-<p><code>注意：在写单元测试的时候测试类必须继承\Swoft\Test\AbstractTestCase class</code></p>
-</blockquote>
-
-<h2 id="1-3-结束">1.3 结束</h2>
-
-<p>swoft实用单元测试到这就已经差不多了，最后我想说一点，单元测试在日常开发中是十分有必要的，这样会省去你很多的测试时间，测试代码一次书写，永久受益，当你重构代码时，只需要跑一遍单元测试就可以知道就可以知道重构代码是否存在问题，这样的好处诱惑是足够大的，哪怕在编写的时候需要废一点时间，也是值得的。</p>
                 </section>
             </article>
 
             
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2fswoftunit%2f - swoft%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95 by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2fdocker-error%2f - docker%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98 by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
