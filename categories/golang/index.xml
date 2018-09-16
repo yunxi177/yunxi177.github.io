@@ -6,10 +6,22 @@
     <description>Recent content in Golang on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Aug 2018 19:27:54 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 17:24:20 +0800</lastBuildDate>
     
 	<atom:link href="http://www.artacode.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>xorm将表生成实体</title>
+      <link>http://www.artacode.com/posts/golang/xorm-reverse/</link>
+      <pubDate>Sun, 16 Sep 2018 17:24:20 +0800</pubDate>
+      
+      <guid>http://www.artacode.com/posts/golang/xorm-reverse/</guid>
+      <description>xorm 工具 xorm 是一组数据库操作命令行工具。
+源码安装 go get github.com/go-xorm/cmd/xorm
+使用 使用帮助 查看帮助命令： xorm help reverse 帮助详情
+usage: xorm reverse [-s] driverName datasourceName tmplPath [generatedPath] [tableFilterReg] according database&#39;s tables and columns to generate codes for Go, C++ and etc. -s Generated one go file for every table driverName Database driver name, now supported four: mysql mymysql sqlite3 postgres datasourceName Database connection uri, for detail infomation please visit driver&#39;s project page tmplPath Template dir for generated.</description>
+    </item>
     
     <item>
       <title>hugo安装及部署</title>

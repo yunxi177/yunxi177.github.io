@@ -23,6 +23,36 @@
     </item>
     
     <item>
+      <title>xorm将表生成实体</title>
+      <link>http://www.artacode.com/posts/golang/xorm-reverse/</link>
+      <pubDate>Sun, 16 Sep 2018 17:24:20 +0800</pubDate>
+      
+      <guid>http://www.artacode.com/posts/golang/xorm-reverse/</guid>
+      <description>xorm 工具 xorm 是一组数据库操作命令行工具。
+源码安装 go get github.com/go-xorm/cmd/xorm
+使用 使用帮助 查看帮助命令： xorm help reverse 帮助详情
+usage: xorm reverse [-s] driverName datasourceName tmplPath [generatedPath] [tableFilterReg] according database&#39;s tables and columns to generate codes for Go, C++ and etc. -s Generated one go file for every table driverName Database driver name, now supported four: mysql mymysql sqlite3 postgres datasourceName Database connection uri, for detail infomation please visit driver&#39;s project page tmplPath Template dir for generated.</description>
+    </item>
+    
+    <item>
+      <title>docker mysql启动报错</title>
+      <link>http://www.artacode.com/posts/docker/mysql/</link>
+      <pubDate>Sat, 15 Sep 2018 16:22:17 +0800</pubDate>
+      
+      <guid>http://www.artacode.com/posts/docker/mysql/</guid>
+      <description>错误信息 2018-09-15T08:11:26.620005077Z 2018-09-15T08:11:26.619857Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800! 2018-09-15T08:11:26.620023933Z 2018-09-15 08:11:26 0x7f7203c4b740 InnoDB: Assertion failure in thread 140127666222912 in file ut0ut.cc line 942  解决方法 原因是宿主机data目录不为空照成; 删除默认data目录：/var/lib/mysql</description>
+    </item>
+    
+    <item>
+      <title>nodejs常见问题</title>
+      <link>http://www.artacode.com/posts/nodejs/faq/</link>
+      <pubDate>Sat, 15 Sep 2018 12:44:30 +0800</pubDate>
+      
+      <guid>http://www.artacode.com/posts/nodejs/faq/</guid>
+      <description>错误1 npm ERR! Linux 4.15.0-34-generic npm ERR! argv &amp;quot;/usr/bin/node&amp;quot; &amp;quot;/usr/bin/npm&amp;quot; &amp;quot;install&amp;quot; &amp;quot;--no-bin-links&amp;quot; npm ERR! node v8.10.0 npm ERR! npm v3.5.2 npm ERR! code EMISSINGARG npm ERR! typeerror Error: Missing required argument #1 npm ERR! typeerror at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3) npm ERR! typeerror at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22) npm ERR! typeerror at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12) npm ERR! typeerror at /usr/share/npm/lib/install/deps.js:457:7 npm ERR! typeerror at /usr/share/npm/node_modules/iferr/index.js:13:50 npm ERR! typeerror at /usr/share/npm/lib/fetch-package-metadata.js:37:12 npm ERR! typeerror at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.</description>
+    </item>
+    
+    <item>
       <title>docker常用命令</title>
       <link>http://www.artacode.com/posts/docker/command/</link>
       <pubDate>Sat, 15 Sep 2018 09:06:07 +0800</pubDate>
