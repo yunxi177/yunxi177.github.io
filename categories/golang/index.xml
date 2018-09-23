@@ -6,10 +6,20 @@
     <description>Recent content in Golang on 一二三四吾</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Sep 2018 17:24:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 23 Sep 2018 12:29:55 +0800</lastBuildDate>
     
 	<atom:link href="http://www.artacode.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sqlite3 stdlib.h: No such file or directory</title>
+      <link>http://www.artacode.com/posts/golang/sqlite3-error/</link>
+      <pubDate>Sun, 23 Sep 2018 12:29:55 +0800</pubDate>
+      
+      <guid>http://www.artacode.com/posts/golang/sqlite3-error/</guid>
+      <description>sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory 错误提示 # github.com/mattn/go-sqlite3 ../../../.go/src/github.com/mattn/go-sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory compilation terminated.  解决方法 sudo apt-get install g++
+参考链接 mattn/go-sqlite3/issues</description>
+    </item>
     
     <item>
       <title>xorm将表生成实体</title>

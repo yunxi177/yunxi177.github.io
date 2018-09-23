@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.artacode.com/posts/golang/sqlite3-error/</loc>
+    <lastmod>2018-09-23T12:29:55+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.artacode.com/posts/golang/xorm-reverse/</loc>
     <lastmod>2018-09-16T17:24:20+08:00</lastmod>
   </url>
@@ -89,13 +94,13 @@
   
   <url>
     <loc>http://www.artacode.com/tags/golang/</loc>
-    <lastmod>2018-09-16T17:24:20+08:00</lastmod>
+    <lastmod>2018-09-23T12:29:55+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.artacode.com/categories/golang/</loc>
-    <lastmod>2018-09-16T17:24:20+08:00</lastmod>
+    <lastmod>2018-09-23T12:29:55+08:00</lastmod>
     <priority>0</priority>
   </url>
   

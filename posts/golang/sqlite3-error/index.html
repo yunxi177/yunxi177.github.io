@@ -13,8 +13,9 @@
     
   
   
-  <meta name="twitter:title" content="第一篇博客"/>
-  <meta name="twitter:description" content="这是我的第一篇hugo博客 "/>
+  <meta name="twitter:title" content="Sqlite3 stdlib.h: No such file or directory"/>
+  <meta name="twitter:description" content="sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory 错误提示 # github.com/mattn/go-sqlite3 ../../../.go/src/github.com/mattn/go-sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory compilation terminated.  解决方法 sudo apt-get install g&#43;&#43;
+参考链接 mattn/go-sqlite3/issues"/>
   
     <meta name="twitter:site" content="@your_twitter_id"/>
   
@@ -30,7 +31,7 @@
 		<meta name="author" content="Argericy">
 		<meta name="description" content="想成为一名艺术家的码农">
 		<meta name="generator" content="Hugo 0.48" />
-		<title>第一篇博客 &middot; 一二三四吾</title>
+		<title>Sqlite3 stdlib.h: No such file or directory &middot; 一二三四吾</title>
 		<link rel="shortcut icon" href="http://www.artacode.com/images/favicon.ico">
 		<link rel="stylesheet" href="http://www.artacode.com/css/style.css">
 		<link rel="stylesheet" href="http://www.artacode.com/css/highlight.css">
@@ -68,17 +69,17 @@
             <article>
                 <header>
                     <h1>
-                        第一篇博客
+                        Sqlite3 stdlib.h: No such file or directory
                     </h1>
                     <h2 class="headline">
-                    Aug 5, 2018 00:00
-                    · 16 words
+                    Sep 23, 2018 12:29
+                    · 30 words
                     · 1 minute read
                       <span class="tags">
                       
                       
                           
-                              <a href="http://www.artacode.com/tags/%E7%94%9F%E6%B4%BB">生活</a>
+                              <a href="http://www.artacode.com/tags/golang">golang</a>
                           
                       
                       
@@ -90,15 +91,12 @@
                     <div id="toc">
                       <nav id="TableOfContents">
 <ul>
-<li><a href="#it-s-my-life">it‘s my life</a>
+<li><a href="#sqlite3-backup-go-14-20-fatal-error-stdlib-h-no-such-file-or-directory">sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory</a>
 <ul>
-<li><a href="#最喜欢的句子">最喜欢的句子</a></li>
-<li><a href="#最喜欢的乐队">最喜欢的乐队</a></li>
+<li><a href="#错误提示">错误提示</a></li>
+<li><a href="#解决方法">解决方法</a></li>
 </ul></li>
-<li><a href="#最信奉的信条">最信奉的信条</a>
-<ul>
-<li><a href="#大道至简">大道至简</a></li>
-</ul></li>
+<li><a href="#参考链接">参考链接</a></li>
 </ul>
 </nav>
                     </div>
@@ -107,30 +105,28 @@
                 <section id="post-body">
                     
 
-<h1 id="it-s-my-life">it‘s my life</h1>
+<h1 id="sqlite3-backup-go-14-20-fatal-error-stdlib-h-no-such-file-or-directory">sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory</h1>
 
-<h2 id="最喜欢的句子">最喜欢的句子</h2>
+<h2 id="错误提示">错误提示</h2>
 
-<blockquote>
-<p>世界上只有一种英雄主义，就是在认清了生活的本质之后依然热爱生活</p>
-</blockquote>
+<pre><code># github.com/mattn/go-sqlite3
+../../../.go/src/github.com/mattn/go-sqlite3/backup.go:14:20: fatal error: stdlib.h: No such file or directory
+compilation terminated.
+</code></pre>
 
-<h2 id="最喜欢的乐队">最喜欢的乐队</h2>
+<h2 id="解决方法">解决方法</h2>
 
-<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1533356950841&amp;di=8fa2970a323e3a4e2365a4824a5044b2&amp;imgtype=0&amp;src=http%3A%2F%2Fimage.jijidown.com%2Fv1%2Fimage%3Fav%3D12509347%26url%3Dhttps%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farchive%2Ffd12b68a28d2ccb7959702ea8ead0c9081ccf270.jpg%26sign%3DD8A38CA52320633A94421BBEC6F572C7" alt="Mou icon" /></p>
+<p><code>sudo apt-get install g++</code></p>
 
-<h1 id="最信奉的信条">最信奉的信条</h1>
+<h1 id="参考链接">参考链接</h1>
 
-<h2 id="大道至简">大道至简</h2>
-
-<p>&#160; &#160; &#160; &#160;世上至所有有专业和非专业的划分就是因为这世界太复杂需要专业的人帮我们去把复杂的事情简单化，从而促使我们生活的便利。<br />
- &#160; &#160; &#160; &#160;将复杂的东西简单话，应该是每个专业的人应该不遗余力要做的事情，而不是去故作高深，弄出一堆复杂的东西去呈现他人。生活中也总少不了有人把简单的事情复杂化，或把复杂的东西搞的更复杂。普通人把这样的人当高人，专业的人不解为何舍近求远。</p>
+<p><a href="https://github.com/mattn/go-sqlite3/issues/481">mattn/go-sqlite3/issues</a></p>
 
                 </section>
             </article>
 
             
-                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2ffirstpost%2f - %e7%ac%ac%e4%b8%80%e7%af%87%e5%8d%9a%e5%ae%a2 by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
+                <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwww.artacode.com%2fposts%2fgolang%2fsqlite3-error%2f - Sqlite3%20stdlib.h%3a%20No%20such%20file%20or%20directory by @your_twitter_id"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
